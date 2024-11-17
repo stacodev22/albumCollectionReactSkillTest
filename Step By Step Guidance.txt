@@ -1,0 +1,27 @@
+Hello myself, Ajay Gandhi
+As a student of coding ninja I'm doing her skill test project for react. And my project name is album list With react.
+
+The project requirements are fetch and show all albums from API given by company.
+Add an album, with post request Call on the same url,
+Update the album by making put request and delete the album with making a delete request for the same url
+
+So here my project is ready
+
+I'm using here some dependencies, like react-loader-spinner, react-toastify, redux-persist, redux, @reduxjs/toolkit
+
+For State Management I'm using here react toolkit.
+
+So in album toolkit component I'm creating createsslice for album here, describing all the extraReducers for making my asynchronous call with URL
+
+All the functions and state management also getting current value by using selectors all day features work in this AlbumToolkit component
+
+According to the requirement I am managing state by defining initial state with value of allalbums, activeAlbum, newAlbumForm and errorMessage.
+
+For state management I'm using a redux so creating a store for my application.
+
+I'm using here three components one is AddAlbumComponent, second is AlbumListComponent and NavbarComponent.
+
+For getting the value from my form input I am using here useRef hook
+
+
+
